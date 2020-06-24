@@ -7,5 +7,4 @@ setup(
     author='Augusto Bottelli',
     author_email='augustobottelli@hotmail.com',
     license='MIT',
-    packages=['model']
 )

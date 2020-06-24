@@ -4,11 +4,11 @@ from itertools import chain
 from collections import Iterable, ChainMap
 from multiprocessing import cpu_count
 from multiprocessing.pool import ThreadPool
+from datetime import datetime
 
-import requests
 import pandas as pd
 import numpy as np
-from datetime import datetime
+import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 from sklearn.pipeline import Pipeline
@@ -330,7 +330,7 @@ class SalesEstimator:
 
 def train_and_export(classes, items):
     """
-    Train a model to predict `sold_quanty`. The function pickles the model pipeline
+    Train a model to predict `sold_quantity`. The function pickles the model pipeline
     only if the model has an equal or better cross validation score than the previous
     one. 
     """
