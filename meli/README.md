@@ -8,4 +8,5 @@ En esta carpeta van a encontrar 2 subdirectorios sus contenidos son:
 - model
     - model.py es la libreria que contiene el codigo del pipeline de todo el sistema.
     - run_model.py es la aplicacion que tiene definido el proceso (incompleto)
-    - __init__.py y setup.py son inherentes a la libreria
+    - archivos inherentes a la instalacion de la libreria como __init__.py .egg
+    - carpeta simulando tests a agregar
